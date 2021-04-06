@@ -1,5 +1,5 @@
 {% set name = "versioneer-518" %}
-{% set version = "0.18" %}
+{% set version = "0.19" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/versioneer-518-{{ version }}.tar.gz
-  sha256: 1d8092a7e5357bed9a688724e7b31a17eb7589e741aaff6103c4c691f07eb380
+  sha256: a287608997415f45401849d1227a42bb41b80a6e4a7da5776666f85ce6faec41
 
 build:
   number: 0
@@ -36,11 +36,8 @@ about:
   license: NIST-PD
   license_file: LICENSE
   description: >
-    This is a tool for managing a recorded version number in setuptools-based
-    python projects. The goal is to remove the tedious and error-prone "update
-    the embedded version string" step from your release process. Making a new
-    release should be as easy as recording a new tag in your version-control
-    system, and maybe making new tarballs.
+    This is a tool for managing a recorded version number in setuptools-based python projects. The goal is to remove the tedious and error-prone "update the embedded version string" step from your release process. Making a new release should be as easy as recording a new tag in your version-control system, and maybe making
+    new tarballs.
   dev_url: https://github.com/python-versioneer/versioneer-518
 
 extra:
